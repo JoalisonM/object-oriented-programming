@@ -38,15 +38,15 @@ public class Guerreiro {
 
   public void incremento() {
     if (energia < 5) {
-      setEnergia(energia + 1);
+      setEnergia(getEnergia() + 1);
     }
   }
 
   public void decremento() {
     if (energia > 0) {
-      setEnergia(energia - 1);
+      setEnergia(getEnergia() - 1);
     } else {
-      System.out.printf("O guerreiro %s está sem energia\n", nome);
+      System.out.printf("O guerreiro [%s] está sem energia\n", nome);
     }
   }
 
@@ -109,12 +109,14 @@ public class Guerreiro {
     }
 
     if (this.getEnergia() == 0) {
-      return "O guerreiro " + guerreiro.getNome() + " foi o ganhador, ele terminou a luta com " + guerreiro.getEnergia()
+      return "O guerreiro " + "[" + guerreiro.getNome() + "]" + " foi o ganhador, ele terminou a luta com "
+          + guerreiro.getEnergia()
           + " de energia";
     }
 
     if (guerreiro.getEnergia() == 0) {
-      return "O guerreiro " + this.getNome() + " foi o ganhador, ele terminou a luta com " + this.getEnergia()
+      return "O guerreiro " + "[" + this.getNome() + "]" + " foi o ganhador, ele terminou a luta com "
+          + this.getEnergia()
           + " de energia";
     }
 
