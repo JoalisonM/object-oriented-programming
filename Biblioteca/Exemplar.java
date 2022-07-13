@@ -1,3 +1,5 @@
+package Biblioteca;
+
 public class Exemplar {
   private int codigo;
   private boolean cativa, emprestada;

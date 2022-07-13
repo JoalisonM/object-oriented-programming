@@ -1,4 +1,4 @@
-package Quadrado;
+package Exercicio2.Quadrado;
 
 public class Main {
   public static void main(String[] args) {

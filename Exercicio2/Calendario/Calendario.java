@@ -1,4 +1,4 @@
-package Calendario;
+package Exercicio2.Calendario;
 
 public class Calendario {
   private int dia, mes, ano;

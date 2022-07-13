@@ -1,4 +1,4 @@
-package Funcionario;
+package Exercicio2.Funcionario;
 
 public class Funcionario {
   private int idade;

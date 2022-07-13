@@ -1,3 +1,5 @@
+package Car;
+
 public interface Vehicle {
   public void speedUp();
 

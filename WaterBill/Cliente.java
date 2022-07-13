@@ -1,4 +1,4 @@
-import java.util.*;
+package WaterBill;
 
 public class Cliente {
   private String nome, cpf;

@@ -1,3 +1,5 @@
+package WaterBill;
+
 public class ContaAgua {
   // Attributes
   private double consumoEmMetros;

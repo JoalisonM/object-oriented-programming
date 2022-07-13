@@ -1,4 +1,4 @@
-package GuerreirosPOO;
+package Atividade1.GuerreirosPOO;
 
 import java.util.Random;
 

@@ -1,3 +1,5 @@
+package WaterBill;
+
 public class Main {
   public static void main(String[] args) {
     Cliente jooj = new Cliente("Jooj", 20, "11111111111",

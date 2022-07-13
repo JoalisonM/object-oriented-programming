@@ -1,4 +1,4 @@
-package Calendario;
+package Exercicio2.Calendario;
 
 public class Main {
   public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Retangulo;
+package Exercicio2.Retangulo;
 
 public class Retangulo {
   private double largura, comprimento;

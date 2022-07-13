@@ -1,4 +1,4 @@
-package FitaVideo;
+package Exercicio2.FitaVideo;
 
 public class Main {
   public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Helicoptero;
+package Atividade1.Helicoptero;
 
 public class Main {
   public static void main(String[] args) {
