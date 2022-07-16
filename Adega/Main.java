@@ -1,4 +1,4 @@
-package Atividade2.Adega;
+package Adega;
 
 import java.text.DateFormat;
 import java.text.ParseException;

@@ -1,4 +1,4 @@
-package Atividade2.Adega;
+package Adega;
 
 public class Adega {
   private int linha;

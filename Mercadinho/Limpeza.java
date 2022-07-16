@@ -1,24 +1,24 @@
-package Atividade2.Mercadinho;
+package Mercadinho;
 
-import java.util.Date;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 
-public class Alimento extends Produto {
-  private String classificacao;
+public class Limpeza extends Produto {
+  private boolean ehNocivo;
 
-  public Alimento(String nome, String codigo, String descricao, double valor, Date dataFabricacao,
-      Date dataValidade, String classificacao) {
+  public Limpeza(String nome, String codigo, String descricao, double valor, Date dataFabricacao,
+      Date dataValidade, boolean ehNocivo) {
     super(nome, codigo, descricao, valor, dataFabricacao, dataValidade);
-    this.classificacao = classificacao;
+    this.ehNocivo = ehNocivo;
   }
 
-  public String getClassificacao() {
-    return classificacao;
+  public boolean getEhNocivo() {
+    return ehNocivo;
   }
 
-  public void setClassificacao(String classificacao) {
-    this.classificacao = classificacao;
+  public void setEhNocivo(boolean ehNocivo) {
+    this.ehNocivo = ehNocivo;
   }
 
   public String toString() {
@@ -26,7 +26,7 @@ public class Alimento extends Produto {
 
     return "\nCódigo: " + getCodigo() + "\nNome: " + getNome() +
         "\nDescrição: " + getDescricao() + "\nValor: R$" + getValor() +
-        "\nClassificação: " + getClassificacao() +
+        "\nÉ nocivo: " + getEhNocivo() +
         "\nData de fabricação: " + brFormato.format(getDataFabricacao()) +
         "\nData de validade: " + brFormato.format(getDataValidade());
   }

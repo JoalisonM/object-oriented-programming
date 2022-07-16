@@ -1,23 +1,23 @@
-package Atividade2.Adega;
+package Adega;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class VinhoBranco extends Vinho {
-  private String tipo;
+public class VinhoTinto extends Vinho {
+  private Date safra;
 
-  public VinhoBranco(String nome, String tipoUva, String fabricante, double valor, Date dataFabricacao, String tipo) {
+  public VinhoTinto(String nome, String tipoUva, String fabricante, double valor, Date dataFabricacao, Date safra) {
     super(nome, tipoUva, fabricante, valor, dataFabricacao);
-    this.tipo = tipo;
+    this.safra = safra;
   }
 
-  public String getTipo() {
-    return tipo;
+  public Date getSafra() {
+    return safra;
   }
 
-  public void setTipo(String tipo) {
-    this.tipo = tipo;
+  public void setSafra(Date safra) {
+    this.safra = safra;
   }
 
   public String toString() {
@@ -28,6 +28,6 @@ public class VinhoBranco extends Vinho {
         "\nFabricante : " + getFabricante() +
         "\nValor: " + getValor() +
         "\nData de fabricação: " + brFormat.format(getDataFabricacao()) +
-        "\nTipo: " + getTipo();
+        "\nSafra: " + brFormat.format(getSafra());
   }
 }

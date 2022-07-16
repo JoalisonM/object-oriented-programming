@@ -1,4 +1,4 @@
-package Atividade2.Mercadinho;
+package Mercadinho;
 
 import java.util.Date;
 import java.text.DateFormat;
